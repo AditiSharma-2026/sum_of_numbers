@@ -4,7 +4,7 @@ if units<=100:
 elif units <=300:
     bill=100+(units-100)*1.25
 elif units <=500:
-    bill=350+(units-300)+1.50
+    bill=350+(units-300)*1.50
 else:
     bill=650+(units-500)*1.75
 print("electricity Bill = Rs.",bill)
